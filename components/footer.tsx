@@ -22,17 +22,22 @@ const Footer = () => {
                 Privacy Policy
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="/contact"
                 className="hover:text-yellow-300 transition-colors"
               >
                 Contact
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <p className="mt-2">&copy; 2024 PetProductsHub. All rights reserved.</p>
+        <p>
+          This site contains affiliate links, which means we may earn a
+          commission if you make a purchase through them at no extra cost to
+          you.
+        </p>
       </div>
     </footer>
   );

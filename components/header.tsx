@@ -12,7 +12,7 @@ const Header = () => {
           transition={{ duration: 0.5 }}
         >
           <Link href="/" className="text-2xl font-bold">
-            PetProductsHub
+            Pet Products Hub
           </Link>
         </motion.div>
         <nav>

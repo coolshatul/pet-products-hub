@@ -8,8 +8,9 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Pet Products Affiliate",
-  description: "Find the best products for your furry friends",
+  title: "Best Pet Products Affiliate - Top Deals for Your Furry Friends",
+  description:
+    "Explore the best pet products for dogs, cats, and other animals. Discover top-quality affiliate deals, from pet toys to grooming essentials, all in one place. Shop now for exclusive offers!",
 };
 
 export default function RootLayout({

@@ -1,101 +1,67 @@
-import Image from "next/image";
+"use client";
+
+import { ProductGrid } from "@/components/product-grid";
+import { motion } from "framer-motion";
+
+// This would typically come from an API or database
+const products = [
+  {
+    id: "1",
+    name: "Pets Empire Stainless Steel Dog Bowl",
+    description:
+      "Made of high quality stainless steel, steady material and durable performance will make this dog bowl become your pet's favorite dish. It offers a healthier alternative to plastic, helps make mealtimes less messy.",
+    imageUrl: "https://m.media-amazon.com/images/I/61-H2CVt8XL._SL1500_.jpg",
+    price: "₹166.00",
+    affiliateLink: "https://amzn.to/4fCCCDb",
+  },
+  {
+    id: "2",
+    name: "Pet Grooming Shedding Brush for Dogs and Cats",
+    description:
+      "Shedding Grooming Brush to Remove Loose Hair, Mats, Tangles, With massage particles, cat brush can better promote the blood circulation, leaving your pets coat soft and shiny. Give your pet a fun and enjoyable grooming experience",
+    imageUrl: "https://m.media-amazon.com/images/I/71oKiJLX1zL._SL1500_.jpg",
+    price: "₹189",
+    affiliateLink: "https://amzn.to/3Z2XtIL",
+  },
+  {
+    id: "3",
+    name: "Pecute Pet Grooming Gloves",
+    description:
+      "Pecute Pet Grooming Gloves, Heat Resistant Dog Bathing Shampoo Gloves with High Density Teeth, Silicone Hair Removal Gloves with Enhanced Five Finger Design, Bathing and Massaging for Dogs and Cats",
+    imageUrl: "https://m.media-amazon.com/images/I/71Imb7RaG2L._SL1500_.jpg",
+    price: "₹189",
+    affiliateLink: "https://amzn.to/3OmaBnC",
+  },
+  {
+    id: "4",
+    name: "Amorite Waterproof Reusable Washable Pee Pads for Dogs",
+    description:
+      "Amorite Waterproof Pet Dry Sheet protects carpets, furniture, bedding, couches, and car seats from dirt, water, odors, scratches, hair, and urine. Machine washable and dryer-friendly, it's a durable, chemical-free alternative to other pet blankets. Ideal for pets, babies, and adults. Easy to use!",
+    imageUrl: "https://m.media-amazon.com/images/I/71FIXeVbd3L._SL1500_.jpg",
+    price: "₹299",
+    affiliateLink: "https://amzn.to/4161IG6",
+  },
+  // Add more products as needed
+];
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+    <div>
+      <motion.div
+        className="text-4xl font-bold mb-6 text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        Pawsome Pet Products!
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+      >
+        <ProductGrid products={products} />
+      </motion.div>
     </div>
   );
 }

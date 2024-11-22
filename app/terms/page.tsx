@@ -28,7 +28,7 @@ export default function TermsPage() {
         <p className="mb-4">
           You agree to use this website only for lawful purposes. You may not
           use PetProductsHub in a manner that could damage, disable, overburden,
-          or impair the functionality of the site or interfere with other users'
+          or impair the functionality of the site or interfere with other users
           access.
         </p>
 

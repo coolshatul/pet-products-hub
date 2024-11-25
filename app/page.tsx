@@ -5,23 +5,32 @@ import { motion } from "framer-motion";
 
 // This would typically come from an API or database
 const products = [
+  // {
+  //   id: "1",
+  //   name: "Pets Empire Stainless Steel Dog Bowl",
+  //   description:
+  //     "Made of high quality stainless steel, steady material and durable performance will make this dog bowl become your pet's favorite dish. It offers a healthier alternative to plastic, helps make mealtimes less messy.",
+  //   imageUrl: "https://m.media-amazon.com/images/I/61-H2CVt8XL._SL1500_.jpg",
+  //   price: "166.00",
+  //   affiliateLink: "https://amzn.to/4fCCCDb",
+  // },
   {
     id: "1",
-    name: "Pets Empire Stainless Steel Dog Bowl",
+    name: "Chew'ems Small Mineral Nylon Bone Chew Toy",
     description:
-      "Made of high quality stainless steel, steady material and durable performance will make this dog bowl become your pet's favorite dish. It offers a healthier alternative to plastic, helps make mealtimes less messy.",
-    imageUrl: "https://m.media-amazon.com/images/I/61-H2CVt8XL._SL1500_.jpg",
-    price: "166.00",
-    affiliateLink: "https://amzn.to/4fCCCDb",
+      "Chew'ems Small Mineral Nylon Bone Chew Toy is made in the USA with food-grade ingredients. Infused with vitamins and minerals, it offers 50% more chewing surface and ensures no splintering. A flavorful and healthy choice for your four-legged family member!",
+    imageUrl: "https://m.media-amazon.com/images/I/71Nu-aSlaOL._SL1500_.jpg",
+    price: "3364",
+    affiliateLink: "https://amzn.to/3B00vpo",
   },
   {
     id: "2",
-    name: "Pet Grooming Shedding Brush for Dogs and Cats",
+    name: "Natural Rubber Spiked Ball Dog Chew Toy",
     description:
-      "Shedding Grooming Brush to Remove Loose Hair, Mats, Tangles, With massage particles, cat brush can better promote the blood circulation, leaving your pets coat soft and shiny. Give your pet a fun and enjoyable grooming experience",
-    imageUrl: "https://m.media-amazon.com/images/I/71oKiJLX1zL._SL1500_.jpg",
-    price: "189",
-    affiliateLink: "https://amzn.to/3Z2XtIL",
+      "The Dogs Company Natural Rubber Spiked Ball Dog Chew Toy (3 inches) is safe, durable, and perfect for small to medium dogs. It helps clean teeth, reduce anxiety, and satisfy chewing instincts while providing hours of fun and entertainment.",
+    imageUrl: "https://m.media-amazon.com/images/I/61th7vu+SCL._SL1000_.jpg",
+    price: "175",
+    affiliateLink: "https://amzn.to/4fFFnUl",
   },
   {
     id: "3",
@@ -116,12 +125,12 @@ const products = [
   // Add more products as needed
   {
     id: "13",
-    name: "Natural Rubber Spiked Ball Dog Chew Toy",
+    name: "Pet Grooming Shedding Brush for Dogs and Cats",
     description:
-      "The Dogs Company Natural Rubber Spiked Ball Dog Chew Toy (3 inches) is safe, durable, and perfect for small to medium dogs. It helps clean teeth, reduce anxiety, and satisfy chewing instincts while providing hours of fun and entertainment.",
-    imageUrl: "https://m.media-amazon.com/images/I/61th7vu+SCL._SL1000_.jpg",
-    price: "175",
-    affiliateLink: "https://amzn.to/4fFFnUl",
+      "Shedding Grooming Brush to Remove Loose Hair, Mats, Tangles, With massage particles, cat brush can better promote the blood circulation, leaving your pets coat soft and shiny. Give your pet a fun and enjoyable grooming experience",
+    imageUrl: "https://m.media-amazon.com/images/I/71oKiJLX1zL._SL1500_.jpg",
+    price: "189",
+    affiliateLink: "https://amzn.to/3Z2XtIL",
   },
   {
     id: "14",

@@ -18,19 +18,19 @@ const products = [
     id: "2",
     name: "Pet Grooming Shedding Brush for Dogs and Cats",
     description:
-      "PUPPEE Wipe Me for dogs is 100% biodegradable and infused with lavender, Vitamin E, and olive oil to clean and soothe your pet’s skin. These gentle wipes are perfect for everyday use, removing dirt while moisturizing dry paws and skin. 48 wipes per pack.",
-    imageUrl: "https://m.media-amazon.com/images/I/71dDrG6kN-L._SL1500_.jpg",
+      "Shedding Grooming Brush to Remove Loose Hair, Mats, Tangles, With massage particles, cat brush can better promote the blood circulation, leaving your pets coat soft and shiny. Give your pet a fun and enjoyable grooming experience",
+    imageUrl: "https://m.media-amazon.com/images/I/71oKiJLX1zL._SL1500_.jpg",
     price: "189",
-    affiliateLink: "https://amzn.to/3CJT9qv",
+    affiliateLink: "https://amzn.to/3Z2XtIL",
   },
   {
     id: "3",
     name: "PUPPEE Wipe ME 100% Biodegradable",
     description:
-      "Pecute Pet Grooming Gloves, Heat Resistant Dog Bathing Shampoo Gloves with High Density Teeth, Silicone Hair Removal Gloves with Enhanced Five Finger Design, Bathing and Massaging for Dogs and Cats",
-    imageUrl: "https://m.media-amazon.com/images/I/71Imb7RaG2L._SL1500_.jpg",
+      "PUPPEE Wipe Me for dogs is 100% biodegradable and infused with lavender, Vitamin E, and olive oil to clean and soothe your pets skin. These gentle wipes are perfect for everyday use, removing dirt while moisturizing dry paws and skin. 48 wipes per pack.",
+    imageUrl: "https://m.media-amazon.com/images/I/715GKbUZzEL._SL1500_.jpg",
     price: "189",
-    affiliateLink: "https://amzn.to/3OmaBnC",
+    affiliateLink: "https://amzn.to/3Zkernv",
   },
   {
     id: "4",
@@ -114,6 +114,42 @@ const products = [
     affiliateLink: "https://amzn.to/40WcQp1",
   },
   // Add more products as needed
+  {
+    id: "13",
+    name: "Natural Rubber Spiked Ball Dog Chew Toy",
+    description:
+      "The Dogs Company Natural Rubber Spiked Ball Dog Chew Toy (3 inches) is safe, durable, and perfect for small to medium dogs. It helps clean teeth, reduce anxiety, and satisfy chewing instincts while providing hours of fun and entertainment.",
+    imageUrl: "https://m.media-amazon.com/images/I/61th7vu+SCL._SL1000_.jpg",
+    price: "175",
+    affiliateLink: "https://amzn.to/4fFFnUl",
+  },
+  {
+    id: "14",
+    name: "Neck Collar Belt and Rope Set",
+    description:
+      "ASenapati Dog Combo Pack includes a waterproof harness, neck collar belt, and 1.5M-2M rope. Designed for medium-sized dogs, this durable set provides comfort and control, perfect for walks and training.",
+    imageUrl: "https://m.media-amazon.com/images/I/51kF-64qcQL._SL1500_.jpg",
+    price: "220",
+    affiliateLink: "https://amzn.to/413BeoJ",
+  },
+  {
+    id: "15",
+    name: "Dog Bowl Stand for Large Dogs",
+    description:
+      "Pets Empire Pet Feeder includes two 1600 ml stainless steel bowls with an iron stand, perfect for large dogs. This durable, X-large bowl set is designed for food and water, ensuring comfort and easy access for your pet.",
+    imageUrl: "https://m.media-amazon.com/images/I/61xcD66q8xL._SL1500_.jpg",
+    price: "808",
+    affiliateLink: "https://amzn.to/4142p2S",
+  },
+  {
+    id: "16",
+    name: "Two Door Top Load Pet Kennel",
+    description:
+      "AmazonBasics Two-Door Top-Load Pet Kennel (23-inch) offers easy access with a top door that opens both ways. Made of durable plastic with a steel-wire front door, it’s perfect for secure transport. Includes screws for added reinforcement. 1-year warranty.",
+    imageUrl: "https://m.media-amazon.com/images/I/718gkm0xDFL._SL1500_.jpg",
+    price: "1549",
+    affiliateLink: "https://amzn.to/3V40tna",
+  },
 ];
 
 export default function Home() {

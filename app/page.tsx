@@ -18,14 +18,14 @@ const products = [
     id: "2",
     name: "Pet Grooming Shedding Brush for Dogs and Cats",
     description:
-      "Shedding Grooming Brush to Remove Loose Hair, Mats, Tangles, With massage particles, cat brush can better promote the blood circulation, leaving your pets coat soft and shiny. Give your pet a fun and enjoyable grooming experience",
-    imageUrl: "https://m.media-amazon.com/images/I/71oKiJLX1zL._SL1500_.jpg",
+      "PUPPEE Wipe Me for dogs is 100% biodegradable and infused with lavender, Vitamin E, and olive oil to clean and soothe your pet’s skin. These gentle wipes are perfect for everyday use, removing dirt while moisturizing dry paws and skin. 48 wipes per pack.",
+    imageUrl: "https://m.media-amazon.com/images/I/71dDrG6kN-L._SL1500_.jpg",
     price: "189",
-    affiliateLink: "https://amzn.to/3Z2XtIL",
+    affiliateLink: "https://amzn.to/3CJT9qv",
   },
   {
     id: "3",
-    name: "Pecute Pet Grooming Gloves",
+    name: "PUPPEE Wipe ME 100% Biodegradable",
     description:
       "Pecute Pet Grooming Gloves, Heat Resistant Dog Bathing Shampoo Gloves with High Density Teeth, Silicone Hair Removal Gloves with Enhanced Five Finger Design, Bathing and Massaging for Dogs and Cats",
     imageUrl: "https://m.media-amazon.com/images/I/71Imb7RaG2L._SL1500_.jpg",

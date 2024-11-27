@@ -16,12 +16,12 @@ const products = [
   // },
   {
     id: "1",
-    name: "Latex Rubber Squeaky Dog Chew Ball Toy",
+    name: "Smart Ball Cat Toy",
     description:
-      "Made from safe, non-toxic natural latex, these squeaky dog toys are perfect for small to medium dogs. They relieve anxiety, provide fun, and are easy to clean. Great for chewing, fetch, and interactive play. Ideal for puppies!",
-    imageUrl: "https://m.media-amazon.com/images/I/71CygujA5WL._SL1500_.jpg",
-    price: "180",
-    affiliateLink: "https://amzn.to/490N3xU",
+      "MDM HUB 360° Smart LED Cat Toy Ball is interactive and rechargeable, made of eco-friendly silicone. Features automatic and touch-activated modes, obstacle avoidance, and Type-C fast charging. Keeps your cat entertained and active. (Multicolor)",
+    imageUrl: "https://m.media-amazon.com/images/I/61g8rk21lJL._SL1500_.jpg",
+    price: "369",
+    affiliateLink: "https://amzn.to/4eKg9Da",
   },
   {
     id: "2",
@@ -43,12 +43,12 @@ const products = [
   },
   {
     id: "4",
-    name: "Chew'ems Small Mineral Nylon Bone Chew Toy",
+    name: "Latex Rubber Squeaky Dog Chew Ball Toy",
     description:
-      "Chew'ems Small Mineral Nylon Bone Chew Toy is made in the USA with food-grade ingredients. Infused with vitamins and minerals, it offers 50% more chewing surface and ensures no splintering. A flavorful and healthy choice for your four-legged family member!",
-    imageUrl: "https://m.media-amazon.com/images/I/71Nu-aSlaOL._SL1500_.jpg",
-    price: "3364",
-    affiliateLink: "https://amzn.to/3B00vpo",
+      "Made from safe, non-toxic natural latex, these squeaky dog toys are perfect for small to medium dogs. They relieve anxiety, provide fun, and are easy to clean. Great for chewing, fetch, and interactive play. Ideal for puppies!",
+    imageUrl: "https://m.media-amazon.com/images/I/71CygujA5WL._SL1500_.jpg",
+    price: "180",
+    affiliateLink: "https://amzn.to/490N3xU",
   },
   {
     id: "5",
